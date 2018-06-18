@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1da1093f-db34-4bac-b719-d88bc34984a5" name="Default" comment="" />
+    <list default="true" id="1da1093f-db34-4bac-b719-d88bc34984a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestPrinter.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPrinter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestPrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="417">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,18 +92,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="378">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,6 +120,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaterBottle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
       </list>
     </option>
   </component>
@@ -138,6 +149,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,17 +221,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestPrinter.printNew">
+  <component name="RunManager" selected="JUnit.TestPrinter.subtractToner">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestPrinter.getSheets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.ableToPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc-homework-wk6-day1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPrinter" />
-      <option name="METHOD_NAME" value="getSheets" />
+      <option name="METHOD_NAME" value="ableToPrint" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -230,13 +242,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPrinter.notEnoughPaper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.notAbleToPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc-homework-wk6-day1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPrinter" />
-      <option name="METHOD_NAME" value="notEnoughPaper" />
+      <option name="METHOD_NAME" value="notAbleToPrint" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -247,13 +259,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPrinter.paperLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.refillPrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc-homework-wk6-day1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPrinter" />
-      <option name="METHOD_NAME" value="paperLeft" />
+      <option name="METHOD_NAME" value="refillPrinter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -264,13 +276,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPrinter.printNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.subtractToner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc-homework-wk6-day1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPrinter" />
-      <option name="METHOD_NAME" value="printNew" />
+      <option name="METHOD_NAME" value="subtractToner" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -281,13 +293,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestPrinter.printed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.subtractTonerPrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cc-homework-wk6-day1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestPrinter" />
-      <option name="METHOD_NAME" value="printed" />
+      <option name="METHOD_NAME" value="subtractTonerPrint" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,19 +349,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestPrinter.paperLeft" />
-      <item itemvalue="JUnit.TestPrinter.getSheets" />
-      <item itemvalue="JUnit.TestPrinter.printNew" />
-      <item itemvalue="JUnit.TestPrinter.printed" />
-      <item itemvalue="JUnit.TestPrinter.notEnoughPaper" />
+      <item itemvalue="JUnit.TestPrinter.ableToPrint" />
+      <item itemvalue="JUnit.TestPrinter.notAbleToPrint" />
+      <item itemvalue="JUnit.TestPrinter.refillPrinter" />
+      <item itemvalue="JUnit.TestPrinter.subtractToner" />
+      <item itemvalue="JUnit.TestPrinter.subtractTonerPrint" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPrinter.printNew" />
-        <item itemvalue="JUnit.TestPrinter.notEnoughPaper" />
-        <item itemvalue="JUnit.TestPrinter.printed" />
-        <item itemvalue="JUnit.TestPrinter.getSheets" />
-        <item itemvalue="JUnit.TestPrinter.paperLeft" />
+        <item itemvalue="JUnit.TestPrinter.subtractToner" />
+        <item itemvalue="JUnit.TestPrinter.subtractTonerPrint" />
+        <item itemvalue="JUnit.TestPrinter.refillPrinter" />
+        <item itemvalue="JUnit.TestPrinter.notAbleToPrint" />
+        <item itemvalue="JUnit.TestPrinter.ableToPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -363,44 +375,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529330457776</updated>
-      <workItem from="1529330460853" duration="3819000" />
+      <workItem from="1529330460853" duration="5420000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPrinter_getSheets - 2018.06.18 at 15h 49m 52s.xml">
-      <configuration name="TestPrinter.getSheets" configurationId="JUnit" />
+    <history-entry file="TestPrinter_ableToPrint - 2018.06.18 at 16h 14m 08s.xml">
+      <configuration name="TestPrinter.ableToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printNew - 2018.06.18 at 15h 51m 59s.xml">
-      <configuration name="TestPrinter.printNew" configurationId="JUnit" />
+    <history-entry file="TestPrinter_ableToPrint - 2018.06.18 at 16h 14m 21s.xml">
+      <configuration name="TestPrinter.ableToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printNew - 2018.06.18 at 15h 54m 15s.xml">
-      <configuration name="TestPrinter.printNew" configurationId="JUnit" />
+    <history-entry file="TestPrinter_ableToPrint - 2018.06.18 at 16h 14m 45s.xml">
+      <configuration name="TestPrinter.ableToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printNew - 2018.06.18 at 15h 54m 44s.xml">
-      <configuration name="TestPrinter.printNew" configurationId="JUnit" />
+    <history-entry file="TestPrinter_ableToPrint - 2018.06.18 at 16h 14m 52s.xml">
+      <configuration name="TestPrinter.ableToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printed - 2018.06.18 at 15h 56m 59s.xml">
-      <configuration name="TestPrinter.printed" configurationId="JUnit" />
+    <history-entry file="TestPrinter_ableToPrint - 2018.06.18 at 16h 18m 16s.xml">
+      <configuration name="TestPrinter.ableToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printNew - 2018.06.18 at 15h 57m 40s.xml">
-      <configuration name="TestPrinter.printNew" configurationId="JUnit" />
+    <history-entry file="TestPrinter_notAbleToPrint - 2018.06.18 at 16h 18m 22s.xml">
+      <configuration name="TestPrinter.notAbleToPrint" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_notEnoughPaper - 2018.06.18 at 16h 05m 45s.xml">
-      <configuration name="TestPrinter.notEnoughPaper" configurationId="JUnit" />
+    <history-entry file="TestPrinter_refillPrinter - 2018.06.18 at 16h 20m 45s.xml">
+      <configuration name="TestPrinter.refillPrinter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_notEnoughPaper - 2018.06.18 at 16h 06m 05s.xml">
-      <configuration name="TestPrinter.notEnoughPaper" configurationId="JUnit" />
+    <history-entry file="TestPrinter_subtractToner - 2018.06.18 at 16h 24m 57s.xml">
+      <configuration name="TestPrinter.subtractToner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_printNew - 2018.06.18 at 16h 06m 11s.xml">
-      <configuration name="TestPrinter.printNew" configurationId="JUnit" />
+    <history-entry file="TestPrinter_subtractToner - 2018.06.18 at 16h 25m 32s.xml">
+      <configuration name="TestPrinter.subtractToner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPrinter_notEnoughPaper - 2018.06.18 at 16h 06m 50s.xml">
-      <configuration name="TestPrinter.notEnoughPaper" configurationId="JUnit" />
+    <history-entry file="TestPrinter_subtractToner - 2018.06.18 at 16h 30m 29s.xml">
+      <configuration name="TestPrinter.subtractToner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3819000" />
+    <option name="totallyTimeSpent" value="5420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -416,7 +428,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -435,6 +447,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32900944" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.32900944" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -494,27 +536,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="378">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
           </folding>
         </state>
       </provider>
